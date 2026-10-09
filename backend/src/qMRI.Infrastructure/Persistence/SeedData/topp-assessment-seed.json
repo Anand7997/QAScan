@@ -1,0 +1,4330 @@
+{
+  "source": "Quinnox TOPP - IQ scoring V1 1.xlsx",
+  "categories": [
+    {
+      "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+      "code": "TECHNOLOGY",
+      "name": "Technology",
+      "description": null,
+      "sortOrder": 1,
+      "modules": [
+        {
+          "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "TEST_AUTOMATION_NO_LOW_CODE",
+          "name": "Test Automation (No/Low Code)",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 1,
+          "subModules": [
+            {
+              "subModuleId": "e310d7b3-c19a-5489-b453-2979c16702b1",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "STRATEGY_PLANNING",
+              "name": "Strategy & Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "9f300e71-a4e8-5ef7-ba89-6189c82dc1ab",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "TEST_DESIGN_COVERAGE",
+              "name": "Test Design & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "66de14fd-86cc-5ce1-baea-8ee1dfe37083",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "TOOLING_FRAMEWORKS",
+              "name": "Tooling & Frameworks",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "f34a6a26-c988-5aab-8f88-2ac167b29b10",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "EXECUTION_INTEGRATION",
+              "name": "Execution & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "a27be6a0-5ec5-5593-95ec-ab9b72bb61a4",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "MAINTENANCE_RELIABILITY",
+              "name": "Maintenance & Reliability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "41aa2f7e-e66a-57ef-9201-9376f9a4e35a",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "TEST_DATA_ENVIRONMENT_MANAGEMENT",
+              "name": "Test Data & Environment Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "38b42c6d-f99c-598f-8cd2-75044a6028c3",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "REPORTING_METRICS",
+              "name": "Reporting & Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "f19dbc46-b1be-5b30-93ef-20d62b3d26cb",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "TEAM_SKILLS_COLLABORATION",
+              "name": "Team Skills & Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6aac9fcc-8bb0-5fec-be3b-ebd221f46aad",
+              "moduleId": "b09a1882-fd1f-57b3-a9c5-89244d8946fe",
+              "code": "ROI_BUSINESS_IMPACT",
+              "name": "ROI & Business Impact",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "CI_CD_DEVOPS_AGILE_INTEGRATION",
+          "name": "CI/CD, Devops & agile Integration",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 2,
+          "subModules": [
+            {
+              "subModuleId": "d02e6863-6dcb-5ec7-8656-b147b46b10aa",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "AGILE_INTEGRATION",
+              "name": "Agile Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "3ba63c73-5a93-5098-a9f0-b5a0a5673d0e",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "CI_CD_PIPELINE_MATURITY",
+              "name": "CI/CD Pipeline Maturity",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "dc21483d-c9b8-517f-9afa-5518d76d091a",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "DEVOPS_COLLABORATION",
+              "name": "DevOps Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "7796a252-c5f6-55b2-b54c-9507d384bf55",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "TEST_AUTOMATION",
+              "name": "Test Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "a88c0d24-e53d-5c5d-b524-7928b787820f",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "ENVIRONMENT_CONFIGURATION_MANAGEMENT",
+              "name": "Environment & Configuration Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "61f9300a-7f2b-5d3d-b69f-25f37df7e7b8",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "MONITORING_FEEDBACK",
+              "name": "Monitoring & Feedback",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "be75d4c3-57a8-5356-a569-ce0f3821ab44",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "COMPLIANCE_RISK_MANAGEMENT",
+              "name": "Compliance & Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "5aa56c2b-3535-514a-976d-0f830af50425",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "METRICS_REPORTING",
+              "name": "Metrics & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6f99bb50-55ab-5f02-a318-efccbb36fc89",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "TOOLING_INTEGRATION",
+              "name": "Tooling & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "0fc83557-1b09-5013-b6e5-adef640e044d",
+              "moduleId": "38c64490-3072-5dd6-b1ad-fcf290ec7c6e",
+              "code": "CONTINUOUS_IMPROVEMENT_INNOVATION",
+              "name": "Continuous Improvement & Innovation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "TEST_VALUE_CHAIN_DIGITALIZATION",
+          "name": "Test Value chain digitalization",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 3,
+          "subModules": [
+            {
+              "subModuleId": "d07de581-5a04-5192-9a2f-b75920fbae90",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "TEST_STRATEGY_GOVERNANCE",
+              "name": "Test Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "3035f08a-b44f-5222-8dd0-c4ea070acf48",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "REQUIREMENTS_TEST_DESIGN",
+              "name": "Requirements & Test Design",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "3a091f14-493e-519a-a44f-a8b5bbce208b",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "TEST_DATA_ENVIRONMENT_MANAGEMENT",
+              "name": "Test Data & Environment Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "e2f16d0c-13a5-5dbe-8fec-95e48414104d",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "TEST_EXECUTION_AUTOMATION",
+              "name": "Test Execution & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "fb97acdb-837c-5ef7-837a-81bfdc65ba7f",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "MONITORING_OBSERVABILITY_FEEDBACK",
+              "name": "Monitoring, Observability & Feedback",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "b60e9d3a-55cd-5a83-9095-bdcf1d5525b9",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "DEFECT_MANAGEMENT_ANALYTICS",
+              "name": "Defect Management & Analytics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "c1cfc437-4e80-5ef8-bf60-6603fdb905df",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "REPORTING_INSIGHTS",
+              "name": "Reporting & Insights",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "3cdaec2d-8332-558f-8d2f-c7ad4ae3341c",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "TOOLING_INTEGRATION",
+              "name": "Tooling & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "3e2d88a8-0fda-5685-8c88-137b91732433",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "AI_INTELLIGENT_AUTOMATION",
+              "name": "AI & Intelligent Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "1a237fec-cf3c-5dc4-a4b2-09fc42df00db",
+              "moduleId": "2e7c561b-8974-512a-8c01-f7c46275e1df",
+              "code": "CONTINUOUS_IMPROVEMENT_INNOVATION",
+              "name": "Continuous Improvement & Innovation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "SECURITY_COMPLIANCE",
+          "name": "Security & Compliance",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 4,
+          "subModules": [
+            {
+              "subModuleId": "2a496d1d-a01f-50a3-bbba-23178d7ab47b",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "SECURITY_REQUIREMENTS_GOVERNANCE",
+              "name": "Security Requirements & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "711b700d-c1e3-598e-a8ca-c95b26631f89",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "SECURITY_TESTING_STRATEGY",
+              "name": "Security Testing Strategy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "a6ffd5a1-3e1c-577c-a2af-655a37ec7109",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "COMPLIANCE_MANAGEMENT",
+              "name": "Compliance Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "88c8f9aa-babc-54b6-861b-a6bf4ab2c629",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "INTEGRATION_WITH_DEVSECOPS",
+              "name": "Integration with DevSecOps",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "28494eaa-64ec-59b6-94b1-2ea17949ec4d",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "TOOLING_AUTOMATION",
+              "name": "Tooling & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "8fe183ef-8686-54e6-91a6-1742e8ec609e",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "MONITORING_REPORTING_ANALYTICS",
+              "name": "Monitoring, Reporting & Analytics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "8b72912d-156a-55ac-9913-4c082bfadaa4",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "TRAINING_AWARENESS",
+              "name": "Training & Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "711d6bc7-b2fd-57fb-82c3-3be767843961",
+              "moduleId": "29bed20a-b503-552b-990b-a47961c19d3d",
+              "code": "CONTINUOUS_IMPROVEMENT_INNOVATION",
+              "name": "Continuous Improvement & Innovation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "AI_MACHINE_LEARNING",
+          "name": "AI & Machine Learning",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 5,
+          "subModules": [
+            {
+              "subModuleId": "81e85657-f584-50d4-9931-af7631799487",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "STRATEGY_GOVERNANCE",
+              "name": "Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "362f460e-f8aa-5986-b48a-5c5ce7ea4fa6",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "AI_ML_AS_A_QA_ENABLER",
+              "name": "AI/ML as a QA Enabler",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "d5f01940-a4ed-5916-8e03-0343648183ed",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "TESTING_AI_ML_SYSTEMS",
+              "name": "Testing AI/ML Systems",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "2b63e6f0-25f9-599a-902c-09761d9f608b",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "DATA_MANAGEMENT_QUALITY",
+              "name": "Data Management & Quality",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "a1904021-ee94-5f64-8775-342d3ca49e94",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "TOOLING_INFRASTRUCTURE",
+              "name": "Tooling & Infrastructure",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "a2c4d633-c43c-5e1c-8478-b6fb02b7b597",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "MONITORING_OBSERVABILITY",
+              "name": "Monitoring & Observability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "303d9f0b-aa0c-55bb-8378-71a010433855",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "COMPLIANCE_RISK_MANAGEMENT",
+              "name": "Compliance & Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "68bcfbaf-773d-54c8-baf3-96ead8eb6fed",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "SKILLS_COLLABORATION",
+              "name": "Skills & Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "001ecf7a-d212-5232-9ed7-0a432a3d2a2e",
+              "moduleId": "a818d0c0-b672-5c05-9589-8f78efe4bf09",
+              "code": "METRICS_CONTINUOUS_IMPROVEMENT",
+              "name": "Metrics & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "TEST_ENVIRONMENT",
+          "name": "Test environment",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 6,
+          "subModules": [
+            {
+              "subModuleId": "88b34617-3b5e-5518-bd51-ee0673ef3b71",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "ENVIRONMENT_STRATEGY_GOVERNANCE",
+              "name": "Environment Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "707bf144-3a1a-5d8f-8e4b-0975b9bc3eed",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "PROVISIONING_CONFIGURATION",
+              "name": "Provisioning & Configuration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "c5d82dd1-7fcb-5667-9c77-0dcd017960a2",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "ENVIRONMENT_SCALABILITY_AVAILABILITY",
+              "name": "Environment Scalability & Availability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "dc1e052d-a09b-50ed-ae04-b1bcaa022227",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "DATA_MANAGEMENT_INTEGRITY",
+              "name": "Data Management & Integrity",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "6aacf9e8-c013-523f-adaf-cc62332918d2",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "MONITORING_OBSERVABILITY",
+              "name": "Monitoring & Observability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "45c52eca-7917-50e0-9873-f1e818e5d031",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "SECURITY_COMPLIANCE",
+              "name": "Security & Compliance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "4e1e74f6-3147-562b-b0f2-bd007939db99",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "TOOLING_INTEGRATION",
+              "name": "Tooling & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "d8d4532e-5714-5477-91f0-4d8272816828",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "COLLABORATION_SUPPORT",
+              "name": "Collaboration & Support",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "643338e7-a6e5-5a5e-904b-26257019ac93",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "COST_MANAGEMENT_OPTIMIZATION",
+              "name": "Cost Management & Optimization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "0ad98713-f5e5-5dbd-8ea5-fb1b39bad887",
+              "moduleId": "c2c550ef-8f1b-5190-998c-4129579d5322",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "TEST_DATA_MANAGEMENT",
+          "name": "Test Data management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 7,
+          "subModules": [
+            {
+              "subModuleId": "9cd00bca-f5bd-5a0c-916d-77351a236e7b",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "TEST_DATA_STRATEGY_GOVERNANCE",
+              "name": "Test Data Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "478f3ea6-d304-580b-bb7a-94c5d2f9ba12",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "TEST_DATA_PROVISIONING",
+              "name": "Test Data Provisioning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "b2346fca-c19d-5f35-999a-36f3279bec8d",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "DATA_QUALITY_COVERAGE",
+              "name": "Data Quality & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "7011f24e-1002-5769-bbc5-294bba9ddf77",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "DATA_MASKING_SECURITY",
+              "name": "Data Masking & Security",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "ca96afbc-9eba-5100-8d6f-11c309870d9e",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "ENVIRONMENT_INTEGRATION",
+              "name": "Environment Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "34787c07-f6aa-5eee-8638-08e030c34b97",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "TOOLING_AUTOMATION",
+              "name": "Tooling & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "21902317-3ba7-58a2-8ad5-35c1f79eb3ec",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "COMPLIANCE_RISK_MANAGEMENT",
+              "name": "Compliance & Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "40605ff8-8b53-5b9b-a94e-4189541533c1",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "MONITORING_REPORTING",
+              "name": "Monitoring & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "7bd6088d-2dea-53e3-ac8f-238378f6bdd4",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "COLLABORATION_SUPPORT",
+              "name": "Collaboration & Support",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "d15e2c1f-8dab-51d4-835a-705c2bce87e0",
+              "moduleId": "75eec67a-e193-58ef-a3f1-f10c141561c6",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "PERFOMANCE_TEST",
+          "name": "Perfomance Test",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 8,
+          "subModules": [
+            {
+              "subModuleId": "81056ad6-603b-5cde-a27b-195c136858a3",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "STRATEGY_GOVERNANCE",
+              "name": "Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "218abbae-fe64-5d56-b994-19c0448fb120",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "TOOLS_INFRASTRUCTURE",
+              "name": "Tools & Infrastructure",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "060980bd-78ab-5a24-a8eb-c402ff90c63c",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "TEST_DESIGN_COVERAGE",
+              "name": "Test Design & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "1a18ac9d-d244-5259-84e4-1907498df041",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "TEST_EXECUTION_MONITORING",
+              "name": "Test Execution & Monitoring",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "ca349a09-5077-553b-a629-da9b2c17de38",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "ANALYSIS_REPORTING",
+              "name": "Analysis & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "8b0c65a4-b206-5b3a-8ea3-e2eeb588f050",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "INTEGRATION_WITH_SDLC",
+              "name": "Integration with SDLC",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "5fbe3fd9-7539-5f67-a48e-889c31c83d95",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "SKILLS_COMPETENCY",
+              "name": "Skills & Competency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "9636e419-1b17-5e7f-a6d8-276ab2457b01",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "RISK_MANAGEMENT_CONTINUOUS_IMPROVEMENT",
+              "name": "Risk Management & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6f90243f-cdb8-5241-947a-fff4fbb51bf3",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "PERFORMANCE_ENGINEERING_PRACTICES",
+              "name": "Performance Engineering Practices",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "5f019ee2-0c82-56ef-abe9-a64c10da0e3b",
+              "moduleId": "c47dc460-d60f-530f-883d-a0a95ff13e6a",
+              "code": "COMPLIANCE_STANDARDS",
+              "name": "Compliance & Standards",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "SECURITY_TEST",
+          "name": "Security Test",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 9,
+          "subModules": [
+            {
+              "subModuleId": "0c3b499e-0586-5702-990b-637d7ef14c85",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "STRATEGY_GOVERNANCE",
+              "name": "Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "49489b36-d581-5271-bf4f-88eb71b6ecef",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "TOOLS_AUTOMATION",
+              "name": "Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "a4fb1c99-b8d9-5d1a-9ceb-9b4360f94c2f",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "TEST_TYPES_COVERAGE",
+              "name": "Test Types & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "39601c79-fa43-5609-97a6-d2a6b9d7060a",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "TEST_EXECUTION_FREQUENCY",
+              "name": "Test Execution & Frequency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "853ab982-34a5-580b-bcc4-ba00cf5ccf71",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "VULNERABILITY_MANAGEMENT",
+              "name": "Vulnerability Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "f55d82d0-bf43-539a-951f-826e888af127",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "INTEGRATION_WITH_SDLC",
+              "name": "Integration with SDLC",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "1054f670-dfa4-544b-becb-3e3ef103e18f",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "SKILLS_AWARENESS",
+              "name": "Skills & Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "2f39f5c5-8ae2-5a96-82aa-6b06eae35a00",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "METRICS_REPORTING",
+              "name": "Metrics & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "7626a9f9-69ed-5bb0-ab19-953fb9eed1a2",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "THIRD_PARTY_SUPPLY_CHAIN_SECURITY",
+              "name": "Third-Party & Supply Chain Security",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "1f4521fa-0375-5756-bc1a-a577ad1b8086",
+              "moduleId": "42540bc3-ecd8-5506-9cf8-3bbcfd46ef84",
+              "code": "COMPLIANCE_STANDARDS",
+              "name": "Compliance & Standards",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "NICE_TESTING",
+          "name": "Nice Testing",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 10,
+          "subModules": [
+            {
+              "subModuleId": "55f4d742-2aa4-55a5-aa77-18a626e2cb32",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "AI_ML_MODEL_TESTING",
+              "name": "AI/ML Model Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "61645a52-155d-556e-9809-b4cdc4ac3417",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "IOT_TESTING",
+              "name": "IoT Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "08308b29-7be4-51e0-9ca3-2e057ff60b53",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "BLOCKCHAIN_TESTING",
+              "name": "Blockchain Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "37f2f21d-612e-53a0-aacb-df359b68b16e",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "AR_VR_TESTING",
+              "name": "AR/VR Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "ddf9b0b7-ace1-5134-91e7-898cafc178f6",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "RPA_TESTING",
+              "name": "RPA Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "cd93eda5-71fa-5464-9855-ad114beefa74",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "VOICE_CONVERSATIONAL_UI_TESTING",
+              "name": "Voice & Conversational UI Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "3f560641-acbb-558b-9af6-287a032f572b",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "QUANTUM_COMPUTING_TESTING",
+              "name": "Quantum Computing Testing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "873ec7a0-fb83-5a63-81f4-93deb1a2df84",
+              "moduleId": "444a47c0-0b5a-5c40-a83e-c332d05f9427",
+              "code": "CROSS_DOMAIN_MATURITY_DIMENSIONS",
+              "name": "Cross-Domain Maturity Dimensions",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "6a61ccdf-7462-5fb0-8893-ad248de7b33b",
+          "categoryId": "4af6321c-0a18-5c8a-999f-407cf590ba21",
+          "code": "OPERATIONAL_ESSENTIALS",
+          "name": "Operational Essentials",
+          "description": "Mandatory operational baseline questions used for intensity-based assessments.",
+          "weight": 1,
+          "sortOrder": 11,
+          "subModules": [
+            {
+              "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
+              "moduleId": "6a61ccdf-7462-5fb0-8893-ad248de7b33b",
+              "code": "MANDATORY_OPERATIONAL_QUESTIONS",
+              "name": "Mandatory Operational Questions",
+              "description": "Operational questions explicitly required in the intensity template.",
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": [
+                {
+                  "questionId": "eb77e3e9-9f9b-5449-8a2e-6b70f04888d6",
+                  "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
+                  "text": "Do you continue to experience production defects after every release?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Mature teams should not accept recurring release defects as normal.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 1
+                },
+                {
+                  "questionId": "a228b452-7a81-550b-b2fc-0e04bf452c05",
+                  "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
+                  "text": "Do your automation scripts break frequently when the application changes?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Automation should be resilient to normal application change.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 2
+                },
+                {
+                  "questionId": "49d5b2e5-18e2-5305-96ed-6dbe80491877",
+                  "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
+                  "text": "Does your regression execution cycle regularly exceed 40 hours, impacting overall release timelines?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Regression execution should remain within the 40-hour threshold and should not regularly constrain release timelines.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 3
+                },
+                {
+                  "questionId": "543480e4-dc7b-5c3d-8fa8-e0b940525060",
+                  "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
+                  "text": "Have you fully adopted AI in your QA practices?",
+                  "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Practical AI capabilities should already be in routine QA use where appropriate.",
+                  "expectedAnswer": 2,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+      "code": "OPERATING_MODEL",
+      "name": "Operating Model",
+      "description": null,
+      "sortOrder": 2,
+      "modules": [
+        {
+          "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "GOVERNANCE_STRATEGY",
+          "name": "Governance & Strategy",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 1,
+          "subModules": [
+            {
+              "subModuleId": "5e234ffd-9018-5d65-8121-cc0a589d0dce",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "ORGANIZATIONAL_STRUCTURE_ROLES",
+              "name": "Organizational Structure & Roles",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "9032ca1c-fb25-5e5e-9375-5f51f097be41",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "STRATEGY_VISION",
+              "name": "Strategy & Vision",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "d7379302-476e-55dc-ae78-a5deb7d8217c",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "GOVERNANCE_POLICY_MANAGEMENT",
+              "name": "Governance & Policy Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "12e4c3d2-6eff-582c-8a2c-02ace7fef774",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "OPERATING_MODEL_PROCESSES",
+              "name": "Operating Model & Processes",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "00b01a19-1f9f-5baf-8cf7-b32e2ad8a5b5",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "METRICS_REPORTING",
+              "name": "Metrics & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "eeb3a3c6-0f7e-552a-a869-62f24d56bc56",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "RISK_MANAGEMENT",
+              "name": "Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "2e6c1654-1035-500e-bb5a-530247813eb5",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "TOOLS_TECHNOLOGY_ALIGNMENT",
+              "name": "Tools & Technology Alignment",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "fcc50283-5a37-5050-95f8-d268d62d1c52",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "CONTINUOUS_IMPROVEMENT_INNOVATION",
+              "name": "Continuous Improvement & Innovation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6cfd967f-ae1b-5f91-81d4-db3ac543d8d4",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "STAKEHOLDER_ENGAGEMENT_COMMUNICATION",
+              "name": "Stakeholder Engagement & Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "0255d799-91be-58ad-b6be-5ba966633381",
+              "moduleId": "ef79db71-e854-566d-bf29-e6e107fdf4bb",
+              "code": "MATURITY_BENCHMARKING",
+              "name": "Maturity & Benchmarking",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "TEST_PROCESS_MANAGEMENT",
+          "name": "Test Process management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 2,
+          "subModules": [
+            {
+              "subModuleId": "73b7e8e8-b183-5593-83c2-ef7fa14daf95",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "TEST_PLANNING_STRATEGY",
+              "name": "Test Planning & Strategy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "16257ac5-4feb-5637-b748-8f7dae03dc7b",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "TEST_DESIGN_PREPARATION",
+              "name": "Test Design & Preparation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "c12d9550-ada6-5b79-9b9c-845ad35fa95a",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "TEST_EXECUTION_DEFECT_MANAGEMENT",
+              "name": "Test Execution & Defect Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "1aa6b5c4-35f3-5099-8115-28b715167ea8",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "TEST_CLOSURE_REPORTING",
+              "name": "Test Closure & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "60b8f6d6-71ed-511c-ac4b-01e2f3ce58b4",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "PROCESS_STANDARDIZATION_OPTIMIZATION",
+              "name": "Process Standardization & Optimization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "e1e314d9-c01f-575a-ba9d-a5dc68a5cc7b",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "ROLES_RESPONSIBILITIES_COLLABORATION",
+              "name": "Roles, Responsibilities & Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "5b2c5539-cd9b-5101-91e6-b9c076a6bc8e",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "METRICS_CONTINUOUS_MONITORING",
+              "name": "Metrics & Continuous Monitoring",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "530f2722-9622-5309-82fe-1f36d781baed",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "TOOL_INTEGRATION_AUTOMATION",
+              "name": "Tool Integration & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "23cc9a03-cd4b-5a3d-82d7-0abe3bd6234e",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "COMPLIANCE_RISK_MANAGEMENT",
+              "name": "Compliance & Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "e5ec30a3-e845-50f3-82aa-c77e10011d32",
+              "moduleId": "6e3feb2f-35d7-522c-a994-c0723375fe06",
+              "code": "MATURITY_BENCHMARKING",
+              "name": "Maturity & Benchmarking",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "DEMAND_MANAGEMENT",
+          "name": "Demand Management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 3,
+          "subModules": [
+            {
+              "subModuleId": "9b1b4d7c-04e1-54b8-b726-25b322f38bc1",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "DEMAND_IDENTIFICATION_INTAKE",
+              "name": "Demand Identification & Intake",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "2c8e1c28-949d-5b1d-a109-5a2db838f483",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "DEMAND_PRIORITIZATION_PLANNING",
+              "name": "Demand Prioritization & Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "724adbc8-e88e-5dee-b61d-03bdf7aaaf17",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "CAPACITY_RESOURCE_MANAGEMENT",
+              "name": "Capacity & Resource Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "cfe31a81-b947-5f59-a6d0-63fd7ab93f3f",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "GOVERNANCE_APPROVAL_WORKFLOW",
+              "name": "Governance & Approval Workflow",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "ede1faf9-0dad-5bda-855f-af29b3b56a4d",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "DEMAND_FULFILLMENT_EXECUTION",
+              "name": "Demand Fulfillment & Execution",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "59d7b57d-9a9a-5cf1-bb88-05b567f3d6fb",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "STAKEHOLDER_ENGAGEMENT_COMMUNICATION",
+              "name": "Stakeholder Engagement & Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "2a4da6ce-06f5-5313-8943-496eb9db7eb0",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "TOOLS_AUTOMATION",
+              "name": "Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "c3fc5b6e-a8cc-5b80-ad44-06f75353d7c8",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "METRICS_CONTINUOUS_IMPROVEMENT",
+              "name": "Metrics & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "e44b4f40-c23b-5839-8629-2efdaea88e49",
+              "moduleId": "7ac4da06-bef6-56da-8489-1e9015ca4c3d",
+              "code": "ALIGNMENT_WITH_BUSINESS_IT_STRATEGY",
+              "name": "Alignment with Business & IT Strategy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "ESTIMATION_MODEL",
+          "name": "Estimation Model",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 4,
+          "subModules": [
+            {
+              "subModuleId": "5eb78aaa-48f7-56f3-8184-590439e5c4e7",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "ESTIMATION_FRAMEWORK_METHODOLOGY",
+              "name": "Estimation Framework & Methodology",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "48e9f25e-b1a9-57b4-bfd9-ecf007d4b355",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "INPUTS_ASSUMPTIONS",
+              "name": "Inputs & Assumptions",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "5439c9a1-0df5-5001-ad79-f78f124580de",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "TOOLS_AUTOMATION",
+              "name": "Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "3d5094be-285f-5ac4-ba62-b376a2b244d9",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "ROLES_RESPONSIBILITIES",
+              "name": "Roles & Responsibilities",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "c36c4678-7cb2-5412-b871-ea3a5412356a",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "ACCURACY_VALIDATION",
+              "name": "Accuracy & Validation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "371054ef-eae4-54d3-af23-c175f7e2367f",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "SCALABILITY_FLEXIBILITY",
+              "name": "Scalability & Flexibility",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "2601de3c-6e3c-5a65-87df-2250a0f2fbb1",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "INTEGRATION_WITH_DEMAND_CAPACITY_PLANNING",
+              "name": "Integration with Demand & Capacity Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "a77cd508-d989-527b-b633-f10112bada74",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "GOVERNANCE_CONTINUOUS_IMPROVEMENT",
+              "name": "Governance & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "9ce8c1a6-d7f4-5c5c-9264-b232b81db520",
+              "moduleId": "86723089-3641-5adb-9ece-6e7da433179f",
+              "code": "STAKEHOLDER_COMMUNICATION",
+              "name": "Stakeholder Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "TECHNOLOGY_TOOL_INTEGRATION",
+          "name": "Technology & Tool Integration",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 5,
+          "subModules": [
+            {
+              "subModuleId": "07f350db-6962-5c5b-848f-8461c5378da7",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "TOOL_STRATEGY_GOVERNANCE",
+              "name": "Tool Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "62a38a32-f1b0-50f0-9a11-eed81299395d",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "TOOL_SELECTION_EVALUATION",
+              "name": "Tool Selection & Evaluation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "627cca3e-b849-5a63-a2c2-299157bf7c5f",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "TOOL_INTEGRATION_INTEROPERABILITY",
+              "name": "Tool Integration & Interoperability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "1855a105-2b45-57e7-9e44-fa78f97ed7b4",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "TEST_AUTOMATION_TOOLS",
+              "name": "Test Automation Tools",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "4029fc45-c980-5d27-9e67-259a0f7e0cba",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "TEST_MANAGEMENT_REPORTING_TOOLS",
+              "name": "Test Management & Reporting Tools",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "b149578c-37a5-5dcf-ad4b-f7d3dc8efb87",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "ENVIRONMENT_DATA_MANAGEMENT_TOOLS",
+              "name": "Environment & Data Management Tools",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "534a69a2-f282-5173-909a-a0011b6fd381",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "LICENSING_SUPPORT_TRAINING",
+              "name": "Licensing, Support & Training",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "bb427347-e2c1-5873-8ba8-5e61ff5323f3",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "INNOVATION_EMERGING_TECHNOLOGIES",
+              "name": "Innovation & Emerging Technologies",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "5b3ce1c0-8e49-52e2-85fd-97d6226926ec",
+              "moduleId": "4348aeab-ae79-58c9-89e8-fca46baa3d62",
+              "code": "METRICS_CONTINUOUS_IMPROVEMENT",
+              "name": "Metrics & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "METRICS_REPORTING",
+          "name": "Metrics & Reporting",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 6,
+          "subModules": [
+            {
+              "subModuleId": "af10c30c-eb10-5f47-bb39-2fb59f08fc69",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "METRICS_STRATEGY_GOVERNANCE",
+              "name": "Metrics Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "5948a5de-ce35-5cd6-9d59-bb6b8ac7144c",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "METRIC_TYPES_COVERAGE",
+              "name": "Metric Types & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "de47a70a-1715-51a4-9c77-859001a97cbd",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "DATA_COLLECTION_ACCURACY",
+              "name": "Data Collection & Accuracy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "1dfb556e-a094-5f9b-8093-23d06c3a187a",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "REPORTING_TOOLS_AUTOMATION",
+              "name": "Reporting Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "9cac8f02-70ef-50a6-a6c8-fb6b457d6b3a",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "STAKEHOLDER_COMMUNICATION",
+              "name": "Stakeholder Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "e2939135-a6d6-5e5b-a345-dcce9b38e390",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "DECISION_MAKING_ACTIONABILITY",
+              "name": "Decision-Making & Actionability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "49c0f7f3-71e0-5765-ba8f-b219294ddccf",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "BENCHMARKING_MATURITY_TRACKING",
+              "name": "Benchmarking & Maturity Tracking",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "af37cb14-ca05-5760-85bf-cba1ad3e1e9e",
+              "moduleId": "fa5edbb6-8ab3-5ee5-b2a7-9d7f8a0ae466",
+              "code": "COMPLIANCE_AUDIT_READINESS",
+              "name": "Compliance & Audit Readiness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "TEST_ORGANIZATION_STRUCTURE",
+          "name": "Test Organization Structure",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 7,
+          "subModules": [
+            {
+              "subModuleId": "3be06dff-f2ac-512d-8aaf-201fe81c8b8c",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "ORGANIZATIONAL_DESIGN_STRUCTURE",
+              "name": "Organizational Design & Structure",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "2cb5a77a-e799-5884-8b95-8cbe62517093",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "ROLES_RESPONSIBILITIES",
+              "name": "Roles & Responsibilities",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "49c8547a-ca20-507e-a1df-4e37c3242da0",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "SKILLS_COMPETENCY_MANAGEMENT",
+              "name": "Skills & Competency Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "02d6d731-f3a1-5337-bbf7-9ebbef65105f",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "RESOURCE_ALLOCATION_SCALABILITY",
+              "name": "Resource Allocation & Scalability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "89e1e309-74d8-5bcb-b432-49c2adede2d7",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "GOVERNANCE_LEADERSHIP",
+              "name": "Governance & Leadership",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "1f8346b1-2e9b-595d-8477-d8a22958912d",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "COLLABORATION_INTEGRATION",
+              "name": "Collaboration & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "d163ef0b-bb9f-5a22-8335-90a465f5e12e",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "PERFORMANCE_ACCOUNTABILITY",
+              "name": "Performance & Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "dc6fc2b5-f7b5-5adb-abae-6839ad99369d",
+              "moduleId": "547bb106-ed9b-5cfa-8e5f-32dce2f66628",
+              "code": "CHANGE_MANAGEMENT_ADAPTABILITY",
+              "name": "Change Management & Adaptability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "BUDGET_RESOURCE_ALLOCATION",
+          "name": "Budget & Resource Allocation",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 8,
+          "subModules": [
+            {
+              "subModuleId": "0e23b840-ba36-5943-8d15-2162c794665d",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "BUDGET_PLANNING_FORECASTING",
+              "name": "Budget Planning & Forecasting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "87f97fa7-4ee5-5469-8e72-51c2ff3cbf85",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "COST_ALLOCATION_TRANSPARENCY",
+              "name": "Cost Allocation & Transparency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "b29cbd65-d489-5976-9653-1aa7cefade38",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "RESOURCE_PLANNING_UTILIZATION",
+              "name": "Resource Planning & Utilization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "b7cdfa91-e864-5715-9dad-c55e4f9c4300",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "VENDOR_OUTSOURCING_MANAGEMENT",
+              "name": "Vendor & Outsourcing Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "358d64a0-ba4c-5f74-9c1a-97d791ba75c5",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "TOOLING_INFRASTRUCTURE_INVESTMENT",
+              "name": "Tooling & Infrastructure Investment",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "90c44c6b-e3ce-582f-a3af-136cf0097302",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "FINANCIAL_GOVERNANCE_CONTROLS",
+              "name": "Financial Governance & Controls",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "d8982359-bee6-5433-90e6-120ff4d00f99",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "PERFORMANCE_VALUE_MEASUREMENT",
+              "name": "Performance & Value Measurement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "0ec53fcb-3dc9-5fad-af7d-02a3183102dc",
+              "moduleId": "52db43be-4588-5111-ba82-1613e2d55186",
+              "code": "STRATEGIC_ALIGNMENT_OPTIMIZATION",
+              "name": "Strategic Alignment & Optimization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "SCALABILITY_ADAPTABILITY",
+          "name": "Scalability & Adaptability",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 9,
+          "subModules": [
+            {
+              "subModuleId": "abbf457c-08dc-5209-8fa4-296f3d6e837b",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "ORGANIZATIONAL_SCALABILITY",
+              "name": "Organizational Scalability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "4cef295c-acf2-525a-ba4e-f3d0fd1d51b9",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "PROCESS_FLEXIBILITY_ADAPTABILITY",
+              "name": "Process Flexibility & Adaptability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "6ea4cf08-3ba0-5f20-bb7e-3276fdf0ca9d",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "TOOLING_INFRASTRUCTURE_SCALABILITY",
+              "name": "Tooling & Infrastructure Scalability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "660543be-4a87-5df3-8a37-3c0faaee5965",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "RESOURCE_TALENT_ADAPTABILITY",
+              "name": "Resource & Talent Adaptability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "a0048284-9529-5266-a6ba-db87f8dee2d1",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "CHANGE_MANAGEMENT_INNOVATION_READINESS",
+              "name": "Change Management & Innovation Readiness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "2b91ab86-b75e-5365-b92a-6c83bae4a229",
+              "moduleId": "2759a3af-5d58-512e-8a0d-e0e55762b462",
+              "code": "METRICS_MONITORING_FOR_SCALABILITY",
+              "name": "Metrics & Monitoring for Scalability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "8ead6dff-de7e-54d4-9fd4-9ee5d385745d",
+          "categoryId": "958cee0a-b691-53b6-90cf-035330511c96",
+          "code": "OPERATIONAL_ESSENTIALS",
+          "name": "Operational Essentials",
+          "description": "Mandatory operational baseline questions used for intensity-based assessments.",
+          "weight": 1,
+          "sortOrder": 10,
+          "subModules": [
+            {
+              "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
+              "moduleId": "8ead6dff-de7e-54d4-9fd4-9ee5d385745d",
+              "code": "MANDATORY_OPERATIONAL_QUESTIONS",
+              "name": "Mandatory Operational Questions",
+              "description": "Operational questions explicitly required in the intensity template.",
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": [
+                {
+                  "questionId": "03513075-959d-5ff9-a3e4-fb96794b6c04",
+                  "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
+                  "text": "Do you still use Time & Materials (T&M) or fixed-price contracts for testing instead of outcome-based engagement models?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Mature operating models move away from pure effort-based testing contracts.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 1
+                },
+                {
+                  "questionId": "7c283f3b-ed59-5b38-a0cc-457d6197ee39",
+                  "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
+                  "text": "Do QA teams still work in silos, separate from product and delivery streams?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. QA should be integrated with product and delivery streams.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 2
+                },
+                {
+                  "questionId": "3bb87d2e-d664-5691-b39a-8c314f722748",
+                  "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
+                  "text": "Do you lack a formal QA governance model across programs?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. This follows the requested diagnostic scoring rule.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 3
+                },
+                {
+                  "questionId": "44ca2a2c-77a4-5b44-b8fb-257d37920d73",
+                  "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
+                  "text": "Do you conduct periodic test maturity assessments?",
+                  "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Maturity should be assessed regularly to drive improvement.",
+                  "expectedAnswer": 2,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+      "code": "PROCESS",
+      "name": "Process",
+      "description": null,
+      "sortOrder": 3,
+      "modules": [
+        {
+          "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "STLC_MANAGEMENT",
+          "name": "STLC Management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 1,
+          "subModules": [
+            {
+              "subModuleId": "b13f80d5-228f-549a-a668-9c56288c6def",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_PLANNING",
+              "name": "Test Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "2b343001-87a7-5a03-9d1f-7d10f0c9d617",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_DESIGN_TEST_CASE_DEVELOPMENT",
+              "name": "Test Design & Test Case Development",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "defd1829-da14-57e3-971e-6d39c8761f00",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_ENVIRONMENT_SETUP",
+              "name": "Test Environment Setup",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "60475c33-760b-57ab-82a4-8b3775531453",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_EXECUTION",
+              "name": "Test Execution",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "956f1670-2e3f-57ce-aa7d-5add0065c519",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_REPORTING_METRICS",
+              "name": "Test Reporting & Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "9b43ddcb-db85-550b-a2ed-8503c9b27547",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TEST_CLOSURE",
+              "name": "Test Closure",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "60f729a4-0518-57ee-adbf-cf169e879579",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "PROCESS_GOVERNANCE_CONTINUOUS_IMPROVEMENT",
+              "name": "Process Governance & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "d695da86-5e64-59e4-91f9-7cb587bbcbd5",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "TOOLS_AUTOMATION",
+              "name": "Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "f2fbb6f2-f8a5-5ae8-99bb-11856056eb00",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "ROLES_RESPONSIBILITIES_SKILLS",
+              "name": "Roles, Responsibilities & Skills",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "1068cb74-d68c-5a91-b63d-d2cf39d0988f",
+              "moduleId": "f5ac3c7a-e2e1-5022-ac0e-174bd4990a00",
+              "code": "MATURITY_INDICATORS",
+              "name": "Maturity Indicators",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "TEST_PLANNING_STRATEGY",
+          "name": "Test Planning & Strategy",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 2,
+          "subModules": [
+            {
+              "subModuleId": "8bd8e994-a345-5cef-a020-6ae1f2329db8",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "TEST_STRATEGY_DEFINITION",
+              "name": "Test Strategy Definition",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "28588533-61db-5ce9-83fb-7df4299798d7",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "TEST_PLANNING_PROCESS",
+              "name": "Test Planning Process",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "ea808eb3-df80-5333-878e-3a0b5738bb9c",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "SCOPE_OBJECTIVES",
+              "name": "Scope & Objectives",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "ba419e0b-4753-5f7a-aed3-edc72960294c",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "RESOURCE_EFFORT_ESTIMATION",
+              "name": "Resource & Effort Estimation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "49dbade0-c573-5f47-9d3d-c8a038de78b5",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "TEST_DELIVERABLES_MILESTONES",
+              "name": "Test Deliverables & Milestones",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "a9109918-c348-5e9d-84f7-a01d15e6291d",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "RISK_MANAGEMENT",
+              "name": "Risk Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "c6386568-defe-5490-a58f-151df8db0eb3",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "CHANGE_MANAGEMENT",
+              "name": "Change Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "b9549250-8269-5403-a8ab-8795830f886b",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "METRICS_SUCCESS_CRITERIA",
+              "name": "Metrics & Success Criteria",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "7e76f6d9-cee3-58c9-9804-3b3fa7043587",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "INTEGRATION_WITH_SDLC",
+              "name": "Integration with SDLC",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "b87bedeb-7033-5072-a9a1-c4d9f1fefa1a",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "MATURITY_INDICATORS",
+              "name": "Maturity Indicators",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            },
+            {
+              "subModuleId": "88daa514-8c53-5d1f-b99f-22961fa406c0",
+              "moduleId": "82de40ba-d1d4-5992-818c-01efed7a1d73",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 11,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "TEST_DESIGN",
+          "name": "Test Design",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 3,
+          "subModules": [
+            {
+              "subModuleId": "77ba221e-9730-55a1-b2c2-a50ddc2e58f6",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "REQUIREMENT_ANALYSIS_COVERAGE",
+              "name": "Requirement Analysis & Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "66a061ba-8783-5d2b-aba3-164b679bd71b",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "TEST_CASE_DESIGN",
+              "name": "Test Case Design",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "2ab42622-c0d7-5e8b-90c3-508456abb280",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "TEST_DATA_DESIGN",
+              "name": "Test Data Design",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "41eda974-8002-509c-8bd2-99e965112d11",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "REUSABILITY_MODULARITY",
+              "name": "Reusability & Modularity",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "1fe0541d-f367-5a02-9e12-225a42766da3",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "TOOLS_AUTOMATION_SUPPORT",
+              "name": "Tools & Automation Support",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "75dd9281-0260-59fb-9778-bddedd9fd54f",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "REVIEW_APPROVAL",
+              "name": "Review & Approval",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "093fe3f4-bfb2-585f-a1ce-ff00894d3f5b",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "CHANGE_MANAGEMENT",
+              "name": "Change Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "24fce508-b152-5da5-ae1a-79e65f369ae1",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "METRICS_QUALITY_CHECKS",
+              "name": "Metrics & Quality Checks",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "ed72181a-78bf-5c84-ab9a-1148f9fbf838",
+              "moduleId": "0bb69ef0-3f82-54ed-85a7-d173e6058d9a",
+              "code": "MATURITY_INDICATORS",
+              "name": "Maturity Indicators",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "TEST_EXECUTION",
+          "name": "Test Execution",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 4,
+          "subModules": [
+            {
+              "subModuleId": "010dd72d-65d6-5f59-8d24-8d5af0303c8a",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "TEST_EXECUTION_PLANNING",
+              "name": "Test Execution Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "37fdb5f7-01f2-5768-8c5e-310a53081bbd",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "EXECUTION_PROCESS_CONTROL",
+              "name": "Execution Process & Control",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "d79c89e7-ba96-548f-ba8c-42e7f45526dd",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "DEFECT_MANAGEMENT",
+              "name": "Defect Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "aeef2a12-cf6c-5c61-befa-381664d4287a",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "MONITORING_REPORTING",
+              "name": "Monitoring & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "0ca1587e-4be1-5990-b79c-0c27a12351d6",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "CHANGE_RE_EXECUTION_MANAGEMENT",
+              "name": "Change & Re-execution Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "5d471c73-3c46-56b2-be12-c77375f8d417",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "ENVIRONMENT_DATA_READINESS",
+              "name": "Environment & Data Readiness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "1b450a0f-6110-5c79-b2b8-94e5ff54210c",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "TOOL_USAGE_INTEGRATION",
+              "name": "Tool Usage & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "3098929a-5244-5fe8-86b0-41b8b8cc6ff8",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "METRICS_QUALITY_CHECKS",
+              "name": "Metrics & Quality Checks",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6789c636-c2cb-5c58-adbe-82b930c7074a",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "MATURITY_INDICATORS",
+              "name": "Maturity Indicators",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "74d54847-aed4-5735-9557-78674a0bd166",
+              "moduleId": "07cfb579-40c7-5c6d-8ee4-f355bc5a26f0",
+              "code": "REVIEW_CONTINUOUS_IMPROVEMENT",
+              "name": "Review & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "TEST_WARE_MANAGEMENT",
+          "name": "Test ware management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 5,
+          "subModules": [
+            {
+              "subModuleId": "1962d13c-7179-50e0-a0f7-b4588f4ced8b",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TEST_DOCUMENTATION_STANDARDS_AND_POLICIES",
+              "name": "Test Documentation Standards and Policies",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "84dc01b9-76e7-5623-a002-b21dc7eb938d",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TEST_PLANNING_AND_STRATEGY_DOCUMENTATION",
+              "name": "Test Planning and Strategy Documentation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "ea35875c-e759-529e-9f7d-149439973471",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TEST_CASE_AND_TEST_SCRIPT_MANAGEMENT",
+              "name": "Test Case and Test Script Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "b5dec834-5fb7-5f96-a1c8-ec348a45e66c",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "DEFECT_DOCUMENTATION_AND_MANAGEMENT",
+              "name": "Defect Documentation and Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "0ebaee27-dd7e-5d98-a3ae-5f9f1404c7f7",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TEST_DATA_MANAGEMENT",
+              "name": "Test Data Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "ba8a3d02-a859-5a82-8d23-a195fca88479",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TRACEABILITY_AND_COVERAGE",
+              "name": "Traceability and Coverage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "2be2ac53-c01d-5f12-b891-ec4e3093e2b9",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TOOL_USAGE_AND_INTEGRATION",
+              "name": "Tool Usage and Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "8d7074f0-5b1c-5669-ae80-0cfef6dd3ebc",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "ACCESS_CONTROL_AND_SECURITY",
+              "name": "Access Control and Security",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "7eb7b6bf-926a-5c50-910b-0e38e590e1e1",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "REVIEW_AND_AUDIT_PRACTICES",
+              "name": "Review and Audit Practices",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "288dd37b-be5a-5706-af1b-55815b3b029f",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "TRAINING_AND_AWARENESS",
+              "name": "Training and Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            },
+            {
+              "subModuleId": "5b6af4ee-b345-5faf-b3aa-ccf068ae334d",
+              "moduleId": "5c869e24-4a52-5740-b0fd-06f11e35a21a",
+              "code": "METRICS_AND_CONTINUOUS_IMPROVEMENT",
+              "name": "Metrics and Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 11,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "FEEDBACK_LOOPS",
+          "name": "Feedback loops",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 6,
+          "subModules": [
+            {
+              "subModuleId": "4bde319d-a5bb-5dd6-a2ba-757375d1fe64",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "FEEDBACK_COLLECTION_MECHANISMS",
+              "name": "Feedback Collection Mechanisms",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "14b0c2d7-0640-5ae5-a1bb-2f7270f764fa",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "FEEDBACK_DOCUMENTATION_AND_TRACKING",
+              "name": "Feedback Documentation and Tracking",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "30c4061a-5807-5b04-bec0-ea1c57d5bcd1",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "FEEDBACK_ANALYSIS_AND_PRIORITIZATION",
+              "name": "Feedback Analysis and Prioritization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "405be64b-f0e2-56d9-803a-d39003f116bf",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "ACTION_AND_RESOLUTION",
+              "name": "Action and Resolution",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "d37984f2-fdd9-5e07-bcce-14dfb8eaa90e",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "COMMUNICATION_AND_TRANSPARENCY",
+              "name": "Communication and Transparency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "cad6b190-b97a-508f-b2ae-cee3111de64f",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "452fb969-683a-5f5e-8c8e-c061da728914",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "TOOL_SUPPORT_AND_AUTOMATION",
+              "name": "Tool Support and Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "e2e714ea-7bce-5724-80ea-6833fd398228",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "CULTURAL_AND_ORGANIZATIONAL_SUPPORT",
+              "name": "Cultural and Organizational Support",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "e62419f6-42b2-5157-8848-8ab8295a60b7",
+              "moduleId": "173655af-ad69-57d8-8387-8ffe88fd6000",
+              "code": "FEEDBACK_IN_AGILE_AND_DEVOPS_CONTEXTS",
+              "name": "Feedback in Agile and DevOps Contexts",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "STAKEHODER_COMMITMENT",
+          "name": "Stakehoder Commitment",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 7,
+          "subModules": [
+            {
+              "subModuleId": "8c159712-0702-5420-a054-b22f6394d13f",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "STAKEHOLDER_IDENTIFICATION_AND_ROLES",
+              "name": "Stakeholder Identification and Roles",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "7ca56810-a0a8-5a9a-9ab0-c048e02c9256",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "ENGAGEMENT_AND_PARTICIPATION",
+              "name": "Engagement and Participation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "a65553b9-a26b-5db6-999c-f750160a8c1c",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "SUPPORT_AND_ADVOCACY",
+              "name": "Support and Advocacy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "04f4c791-15d0-5395-8991-61c997399dcf",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "COMMUNICATION_AND_COLLABORATION",
+              "name": "Communication and Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "00e83485-1c8f-5f40-a956-6b62660bb389",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "DECISION_MAKING_AND_ACCOUNTABILITY",
+              "name": "Decision-Making and Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "08aebcbb-be1c-50e5-8d37-2b309cf2ec82",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "TRAINING_AND_AWARENESS",
+              "name": "Training and Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "14b03335-5a49-5490-bc23-43b96a595d3a",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "FEEDBACK_AND_CONTINUOUS_IMPROVEMENT",
+              "name": "Feedback and Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "bd331c56-38a2-5e1a-ae7c-fc4f1e84e5d3",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "COMMITMENT_INDICATORS_AND_METRICS",
+              "name": "Commitment Indicators and Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "faa6a384-8ce2-5104-8d3f-b5cb3e82b0e4",
+              "moduleId": "51c60b67-29d7-5f3d-b5c7-743b5f721b83",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "MOMENT_OF_INVOLVEMENT",
+          "name": "Moment of involvement",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 8,
+          "subModules": [
+            {
+              "subModuleId": "bdc31bc1-00b9-5c61-bde0-366558e884b8",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "STAKEHOLDER_IDENTIFICATION_AND_ROLES",
+              "name": "Stakeholder Identification and Roles",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "1f523e9d-b77e-5d16-a95e-6e09f2ef61f3",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "ENGAGEMENT_AND_PARTICIPATION",
+              "name": "Engagement and Participation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "2290701f-d042-5193-a993-6b460ef48997",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "SUPPORT_AND_ADVOCACY",
+              "name": "Support and Advocacy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "e2b45d2b-5946-5e2a-ac80-2dfdda4da153",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "COMMUNICATION_AND_COLLABORATION",
+              "name": "Communication and Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "c7888222-8bd1-5a6e-b80d-a1a712a54722",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "DECISION_MAKING_AND_ACCOUNTABILITY",
+              "name": "Decision-Making and Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "bec4dae9-7602-56ba-acfb-486c0eb4a03d",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "TRAINING_AND_AWARENESS",
+              "name": "Training and Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "c7e4b89a-115c-5ce0-95a5-3abf3ab7803c",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "FEEDBACK_AND_CONTINUOUS_IMPROVEMENT",
+              "name": "Feedback and Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "1bcf33e4-712f-5481-95ba-7b3b1319d765",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "COMMITMENT_INDICATORS_AND_METRICS",
+              "name": "Commitment Indicators and Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "6b73108a-8f21-581f-8742-c7fbf82fe032",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "SHIFT_LEFT_PRACTICES",
+              "name": "Shift-Left Practices",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "24a0ddc1-6efa-5495-a31e-58ac781ec1ce",
+              "moduleId": "096a836a-f99d-5f64-8a32-1cac6b4f7042",
+              "code": "CONTINUOUS_FEEDBACK_IMPROVEMENT",
+              "name": "Continuous Feedback & Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "METRICS",
+          "name": "Metrics",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 9,
+          "subModules": [
+            {
+              "subModuleId": "c4ddb445-4a15-5c9e-a273-92d526021fed",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "METRICS_STRATEGY_AND_GOVERNANCE",
+              "name": "Metrics Strategy and Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "3987ee32-97a0-56ca-95b3-31709ccc0ff9",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "DEFINITION_AND_STANDARDIZATION",
+              "name": "Definition and Standardization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "35f60553-fe2c-5ec3-8bf2-8f9e284c1853",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "DATA_COLLECTION_AND_TOOLING",
+              "name": "Data Collection and Tooling",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "acb819aa-c6c7-544b-b3aa-19d0ce57c331",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "CORE_QA_METRICS_TRACKED",
+              "name": "Core QA Metrics Tracked",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "520adfc3-3323-5e32-a3c9-70ef2d8c02fd",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "ADVANCED_AND_PREDICTIVE_METRICS",
+              "name": "Advanced and Predictive Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "c9e1880f-0787-5aa5-887e-3a6dd0aa78d6",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "REPORTING_AND_VISUALIZATION",
+              "name": "Reporting and Visualization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "a5fa7e51-3e62-5911-8fbe-6bbe38bbf0ad",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "USAGE_AND_DECISION_MAKING",
+              "name": "Usage and Decision-Making",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "d1a75bce-991f-5328-8883-2b5ae7423305",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "COMMUNICATION_AND_TRANSPARENCY",
+              "name": "Communication and Transparency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "ee59d8c1-e17d-5f29-b8df-1e5b1372fb4e",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "COMPLIANCE_AND_AUDIT",
+              "name": "Compliance and Audit",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "5f98d086-c971-5ef8-9bd4-7b091341ed57",
+              "moduleId": "ddd8a777-b7f1-567f-872b-67b652d2bddf",
+              "code": "CONTINUOUS_IMPROVEMENT_AND_MATURITY",
+              "name": "Continuous Improvement and Maturity",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "METHODOLOGY_PRACTICE",
+          "name": "Methodology Practice",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 10,
+          "subModules": [
+            {
+              "subModuleId": "fc182968-f00b-5a23-8501-e16ebae245c3",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "GOVERNANCE_STRATEGY",
+              "name": "Governance & Strategy",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "617938f0-c6a8-5a7f-8497-c152766fa6a3",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "PROCESS_DEFINITION_STANDARDIZATION",
+              "name": "Process Definition & Standardization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "e640d708-e0b4-5ebd-a3e7-9bc99a334811",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "TEST_PLANNING_MANAGEMENT",
+              "name": "Test Planning & Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "87f08a93-2b0c-5f51-936f-e9f7b9d2bd85",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "REQUIREMENTS_TRACEABILITY",
+              "name": "Requirements & Traceability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "daa8f384-ee45-5c99-8b28-2a4837254f55",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "TEST_DESIGN_EXECUTION",
+              "name": "Test Design & Execution",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "a08b48ac-9706-5251-a758-e0b58d2ac86c",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "AUTOMATION_TOOLS",
+              "name": "Automation & Tools",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "75d94583-7369-57d6-a0ae-f5ef806190d7",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "METRICS_REPORTING",
+              "name": "Metrics & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "53782156-8f15-5c11-a974-1c9001a10091",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "77930661-f439-548a-91c2-881a0407e52a",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "TRAINING_COMPETENCY",
+              "name": "Training & Competency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            },
+            {
+              "subModuleId": "fbcef14e-7804-565a-91eb-4ed807df0ba0",
+              "moduleId": "56a4d3ed-4e16-522e-bd3b-4d939227bf84",
+              "code": "COLLABORATION_INTEGRATION",
+              "name": "Collaboration & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 10,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "DEFECT_MANAGEMENT",
+          "name": "Defect Management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 11,
+          "subModules": [
+            {
+              "subModuleId": "e00228b6-e3f0-5c4e-a374-2ed772c6e87d",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "DEFECT_IDENTIFICATION_LOGGING",
+              "name": "Defect Identification & Logging",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "c99801e9-e28b-5983-80c6-85834c15a31d",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "DEFECT_CLASSIFICATION_TRIAGE",
+              "name": "Defect Classification & Triage",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "2d0cce4d-f09a-5f5f-a31d-f95d670f06c0",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "DEFECT_LIFECYCLE_MANAGEMENT",
+              "name": "Defect Lifecycle Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "dfe4612b-afc8-5534-8dae-0178d75f5084",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "DEFECT_RESOLUTION_VERIFICATION",
+              "name": "Defect Resolution & Verification",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "5dc0130a-fd16-5f2f-b4d4-0a56beba881d",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "DEFECT_METRICS_REPORTING",
+              "name": "Defect Metrics & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "12be4c54-2b6e-501b-8fc3-ba37e1ef2504",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "TOOLING_INTEGRATION",
+              "name": "Tooling & Integration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "f952abab-a8f8-5f93-9647-721e5c16bccc",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "ROOT_CAUSE_ANALYSIS_PREVENTION",
+              "name": "Root Cause Analysis & Prevention",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "9d07f44f-8c98-5f46-a9d5-31f2d3c405ae",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "GOVERNANCE_CONTINUOUS_IMPROVEMENT",
+              "name": "Governance & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "81df3876-21ef-5fcc-8cc5-2a3a0fbcdfc8",
+              "moduleId": "1389805d-910b-53c9-9296-ad6acbe06581",
+              "code": "TRAINING_AWARENESS",
+              "name": "Training & Awareness",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "7478b597-6aa5-591b-a5b6-6471d2f6ecc8",
+          "categoryId": "cc8708fd-7aa9-59ff-8fda-486b96a55aaa",
+          "code": "OPERATIONAL_ESSENTIALS",
+          "name": "Operational Essentials",
+          "description": "Mandatory operational baseline questions used for intensity-based assessments.",
+          "weight": 1,
+          "sortOrder": 12,
+          "subModules": [
+            {
+              "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
+              "moduleId": "7478b597-6aa5-591b-a5b6-6471d2f6ecc8",
+              "code": "MANDATORY_OPERATIONAL_QUESTIONS",
+              "name": "Mandatory Operational Questions",
+              "description": "Operational questions explicitly required in the intensity template.",
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": [
+                {
+                  "questionId": "ee84c07c-d044-599d-812b-874c5c8f960a",
+                  "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
+                  "text": "Do you still identify defects late in the STLC, such as during Dev, SIT, UAT, or Pre-Prod, rather than earlier in the SDLC?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Defects should be caught earlier in the SDLC.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 1
+                },
+                {
+                  "questionId": "58c0b517-eeb2-587a-b4ba-2c6ebd5161c7",
+                  "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
+                  "text": "Do regression cycles still require manual effort despite automation coverage?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Regression should not rely on manual effort when automation is claimed.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 2
+                },
+                {
+                  "questionId": "b03be957-0fee-5a7b-84ba-3103a5510b85",
+                  "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
+                  "text": "Do you believe the QE Total Cost of Ownership is currently higher than it should be, and that there are significant opportunities to reduce it?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. QE Total Cost of Ownership should be controlled relative to quality requirements and delivery objectives.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 3
+                },
+                {
+                  "questionId": "a35a666d-a977-56f3-9ad1-b22df1e2bd57",
+                  "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
+                  "text": "Is your UAT process primarily manual?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. UAT should be structured and supported with as much automation as practical.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+      "code": "PEOPLE",
+      "name": "People",
+      "description": null,
+      "sortOrder": 4,
+      "modules": [
+        {
+          "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "COMPETENCY",
+          "name": "Competency",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 1,
+          "subModules": [
+            {
+              "subModuleId": "72dc4fe9-3e31-56a3-bf30-c15b129f8177",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "STRATEGY_GOVERNANCE",
+              "name": "Strategy & Governance",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "fe7bd827-7f01-5c68-a323-945fd9826983",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "SKILLS_CAPABILITIES",
+              "name": "Skills & Capabilities",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "e7a2b2e4-ea6b-5fe4-b242-3c186b17cdc7",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "TRAINING_DEVELOPMENT",
+              "name": "Training & Development",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "9289b8b6-ad22-55ee-a19d-a59350646074",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "CAREER_PATHING_GROWTH",
+              "name": "Career Pathing & Growth",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "0cd2c8e4-d74d-5a83-9cee-ffb233b73ea6",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "MEASUREMENT_METRICS",
+              "name": "Measurement & Metrics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "c2d83c6a-f3f3-5b81-bab9-a78a287f47b3",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "TOOLS_AUTOMATION",
+              "name": "Tools & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "e5b7772d-7af3-5ccb-845e-7dae875a194d",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "ORGANIZATIONAL_CULTURE",
+              "name": "Organizational Culture",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "c994ea9f-01e3-5d22-bce9-36d3e2124bd8",
+              "moduleId": "81c2c3c1-efb3-5014-983d-58c290e8e6d9",
+              "code": "EXTERNAL_BENCHMARKING_CERTIFICATIONS",
+              "name": "External Benchmarking & Certifications",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "PRODUCTIVITY_EFFICIENCY",
+          "name": "Productivity & Efficiency",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 2,
+          "subModules": [
+            {
+              "subModuleId": "af37dffb-6e73-597e-9de6-72f2b52befdf",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "WORKLOAD_RESOURCE_MANAGEMENT",
+              "name": "Workload & Resource Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "3fd09c4c-921d-539a-821c-f756f4a92b14",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "PROCESS_EFFICIENCY",
+              "name": "Process Efficiency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "b383d6d2-f059-5cec-adde-8e0db7107047",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "TIME_MANAGEMENT_DELIVERY",
+              "name": "Time Management & Delivery",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "b96ec53d-944d-55e9-be6d-8133d9429016",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "TOOL_UTILIZATION_AUTOMATION",
+              "name": "Tool Utilization & Automation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "2807df3c-ee04-57e4-9c65-6a29f4afc056",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "COLLABORATION_COMMUNICATION",
+              "name": "Collaboration & Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "86095d03-5440-5fe8-a78f-474cb9f0cb36",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "METRICS_PERFORMANCE_TRACKING",
+              "name": "Metrics & Performance Tracking",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "6c6f6193-9075-5bf4-8b08-7e85f12f9316",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "SKILL_ALIGNMENT_ROLE_OPTIMIZATION",
+              "name": "Skill Alignment & Role Optimization",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "0ea4cf4e-c2a9-542d-b9f5-4023850ed2ba",
+              "moduleId": "3a8bc95e-b322-5e2a-888c-3e1d507c8198",
+              "code": "CONTINUOUS_IMPROVEMENT_FEEDBACK",
+              "name": "Continuous Improvement & Feedback",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "TRAINING_AND_KNOWLEDGE",
+          "name": "Training and Knowledge",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 3,
+          "subModules": [
+            {
+              "subModuleId": "45f0144a-43cd-5aec-aa2d-7b4e30fd4a42",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "TRAINING_STRATEGY_PLANNING",
+              "name": "Training Strategy & Planning",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "a7f1141e-a8b2-51d3-a9c6-4a815f085775",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "ONBOARDING_INDUCTION",
+              "name": "Onboarding & Induction",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "e5767297-057a-5079-ac4a-ffe19e1bd114",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "TECHNICAL_DOMAIN_TRAINING",
+              "name": "Technical & Domain Training",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "c12a7930-12f0-57f8-b856-d27934969962",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "SOFT_SKILLS_LEADERSHIP_DEVELOPMENT",
+              "name": "Soft Skills & Leadership Development",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "04979dff-1e10-5654-a2ee-8e79d17fc6c8",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "KNOWLEDGE_MANAGEMENT_SYSTEMS",
+              "name": "Knowledge Management Systems",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "a5a274e9-cc88-5830-a364-3a9fff946427",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "LEARNING_CULTURE_ENGAGEMENT",
+              "name": "Learning Culture & Engagement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "1d3badb2-859b-59c5-900d-27454a6432f7",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "MEASUREMENT_FEEDBACK",
+              "name": "Measurement & Feedback",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "fecb4a65-2c1a-565d-b5ab-3b9295ec76a1",
+              "moduleId": "9bfc00bb-c714-56d7-8092-ea49c0e88bf5",
+              "code": "TOOLS_PLATFORMS",
+              "name": "Tools & Platforms",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "PROBLEM_SOLVING_DECISION_MAKING",
+          "name": "Problem-Solving & Decision-Making",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 4,
+          "subModules": [
+            {
+              "subModuleId": "e1b720db-a4a8-5cca-a0ff-bd034369c3fa",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "ISSUE_IDENTIFICATION_ANALYSIS",
+              "name": "Issue Identification & Analysis",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "5f2bde6a-1524-517c-83a7-e73fa14529dc",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "DECISION_MAKING_FRAMEWORKS",
+              "name": "Decision-Making Frameworks",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "8ac5f9ea-2def-56a2-920d-2fb3a67ca463",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "COLLABORATION_IN_PROBLEM_SOLVING",
+              "name": "Collaboration in Problem-Solving",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "f3cc676f-fd1d-516d-8f62-145d19a1b66f",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "RESPONSIVENESS_AGILITY",
+              "name": "Responsiveness & Agility",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "806cf8e7-8baa-53ba-b6e1-d37b6e4eb6cb",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "CONTINUOUS_IMPROVEMENT",
+              "name": "Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "7a933b1f-84ef-5e65-80ad-c8dbdc7c4d41",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "TOOLS_TECHNIQUES",
+              "name": "Tools & Techniques",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "29ba58e0-3179-547e-8d0a-1720ad078c35",
+              "moduleId": "75d1ce75-729a-54fc-a442-0baf0fd6f158",
+              "code": "LEADERSHIP_ACCOUNTABILITY",
+              "name": "Leadership & Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "PROCESS_ORIENTATION",
+          "name": "Process Orientation",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 5,
+          "subModules": [
+            {
+              "subModuleId": "9cb81834-6230-57df-b1a9-6523b19e6c11",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "PROCESS_AWARENESS_UNDERSTANDING",
+              "name": "Process Awareness & Understanding",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "53490865-6633-59fe-8fb3-b16d5b4380b4",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "PROCESS_ADHERENCE_DISCIPLINE",
+              "name": "Process Adherence & Discipline",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "3a6d6d24-6644-525d-8d93-95e63f5d0de8",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "PROCESS_OWNERSHIP_ACCOUNTABILITY",
+              "name": "Process Ownership & Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "c78d2a2a-cbd0-5151-a791-b15ef4099e7c",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "PROCESS_DOCUMENTATION_ACCESSIBILITY",
+              "name": "Process Documentation & Accessibility",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "91e9d0f5-b23c-5a77-9c81-b86024f9b407",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "PROCESS_IMPROVEMENT_INNOVATION",
+              "name": "Process Improvement & Innovation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "4d34300c-2e1f-5987-91ba-c65055f63b49",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "METRICS_MONITORING",
+              "name": "Metrics & Monitoring",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "ac4f4377-eadd-52ef-a317-52c1bdc3f5c5",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "INTEGRATION_WITH_OTHER_FUNCTIONS",
+              "name": "Integration with Other Functions",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "82113d51-df20-5119-a57e-c82a8164342f",
+              "moduleId": "8ea74769-d7c5-511b-bb2a-03020dd7853f",
+              "code": "CULTURE_MINDSET",
+              "name": "Culture & Mindset",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "COMMUNICATION_COLLABORATION",
+          "name": "Communication & Collaboration",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 6,
+          "subModules": [
+            {
+              "subModuleId": "df3ac100-bd19-5346-ac25-8914535a9ff3",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "INTERNAL_TEAM_COMMUNICATION",
+              "name": "Internal Team Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "b3f69f12-0212-5c1b-8384-c362bab719cd",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "CROSS_FUNCTIONAL_COLLABORATION",
+              "name": "Cross-Functional Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "2746fe5a-f8cc-51b4-a823-deb6c559a4f8",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "COMMUNICATION_TOOLS_PLATFORMS",
+              "name": "Communication Tools & Platforms",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "e2284be8-fcf0-58af-86f9-d33826031cb3",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "DOCUMENTATION_KNOWLEDGE_SHARING",
+              "name": "Documentation & Knowledge Sharing",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "74c3c5c8-3ce5-5230-81b6-5865e4f9d448",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "FEEDBACK_CULTURE",
+              "name": "Feedback Culture",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "47ea89b2-637d-5d86-96cb-2bdbea2e306e",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "CONFLICT_RESOLUTION_ALIGNMENT",
+              "name": "Conflict Resolution & Alignment",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "24e4d002-3046-5a6c-a146-230c91920c2a",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "LEADERSHIP_COMMUNICATION",
+              "name": "Leadership & Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "fb9b63ee-667b-5e5d-ba22-c6c461515446",
+              "moduleId": "15c3d974-1f23-5e9d-b933-197113d9a173",
+              "code": "INCLUSIVITY_ENGAGEMENT",
+              "name": "Inclusivity & Engagement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "LEADERSHIP_MANAGEMENT",
+          "name": "Leadership & Management",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 7,
+          "subModules": [
+            {
+              "subModuleId": "9b108be4-7bd4-5716-8978-49c1461fc31f",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "VISION_STRATEGY_ALIGNMENT",
+              "name": "Vision & Strategy Alignment",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "8121bcda-9859-514d-a43f-c8789fb8665c",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "GOVERNANCE_ACCOUNTABILITY",
+              "name": "Governance & Accountability",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "a851fc07-5a09-59c1-8983-7d4f8ff83bdc",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "INVESTMENT_RESOURCE_ALLOCATION",
+              "name": "Investment & Resource Allocation",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "a35425e7-f828-511f-876d-95d1205f84cb",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "CULTURE_CHANGE_MANAGEMENT",
+              "name": "Culture & Change Management",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "7c5edbe6-98e4-5469-9388-b5ae1856d4fb",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "TALENT_DEVELOPMENT_RETENTION",
+              "name": "Talent Development & Retention",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "fe2ac7b0-a453-57b4-834e-393d36fb36dd",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "COLLABORATION_COMMUNICATION",
+              "name": "Collaboration & Communication",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "70d587d6-4fd7-5299-98c1-d1fa3492c78d",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "INNOVATION_CONTINUOUS_IMPROVEMENT",
+              "name": "Innovation & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "b9257fee-85e9-5ba3-86b7-9767009fff1c",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "RISK_MANAGEMENT_DECISION_MAKING",
+              "name": "Risk Management & Decision-Making",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "35059428-449b-5a64-b36e-040b58f93297",
+              "moduleId": "1598d8e5-ccd1-5f77-880f-b52043dd501f",
+              "code": "LEADERSHIP_ENGAGEMENT_VISIBILITY",
+              "name": "Leadership Engagement & Visibility",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "ENGAGEMENT_MOTIVATION",
+          "name": "Engagement & Motivation",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 8,
+          "subModules": [
+            {
+              "subModuleId": "b7458032-700f-5fd9-aa32-6a1b781a9395",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "EMPLOYEE_ENGAGEMENT_OWNERSHIP",
+              "name": "Employee Engagement & Ownership",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "b554f454-8e8e-5059-ad36-b342d3481d8b",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "RECOGNITION_REWARDS",
+              "name": "Recognition & Rewards",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "5940cdf4-4055-5941-947f-34ee66e90748",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "CAREER_GROWTH_DEVELOPMENT",
+              "name": "Career Growth & Development",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "77c70671-b8cd-5e3f-9332-eff47407e385",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "WORK_ENVIRONMENT_CULTURE",
+              "name": "Work Environment & Culture",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "fd79a24f-108f-51ff-93d1-92da37809ea4",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "LEADERSHIP_SUPPORT_INSPIRATION",
+              "name": "Leadership Support & Inspiration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "b2c8da8a-76e4-5d8c-8a21-00f780a52046",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "COMMUNICATION_TRANSPARENCY",
+              "name": "Communication & Transparency",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "74fb14c0-e486-5c31-868d-a95003dcf46d",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "MOTIVATION_DRIVERS",
+              "name": "Motivation Drivers",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "7d584e8d-b0df-5be5-8332-9e6fd9550973",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "TEAM_DYNAMICS_COLLABORATION",
+              "name": "Team Dynamics & Collaboration",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            },
+            {
+              "subModuleId": "c6fe2ea6-6dac-5446-a6de-2659b1fd278f",
+              "moduleId": "c5064a16-bc66-5197-9d67-ab6da01af3c1",
+              "code": "FEEDBACK_CONTINUOUS_IMPROVEMENT",
+              "name": "Feedback & Continuous Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 9,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "TEST_PROFESSIONALISM",
+          "name": "Test Professionalism",
+          "description": null,
+          "weight": 1,
+          "sortOrder": 9,
+          "subModules": [
+            {
+              "subModuleId": "7c20f7e5-25e2-5a0a-94b2-a1323f7f8970",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "PROFESSIONAL_STANDARDS_ETHICS",
+              "name": "Professional Standards & Ethics",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": []
+            },
+            {
+              "subModuleId": "825c5fbd-d6eb-5b40-b8a4-f2ac42096fbc",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "TECHNICAL_COMPETENCE_SKILL_MASTERY",
+              "name": "Technical Competence & Skill Mastery",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 2,
+              "questions": []
+            },
+            {
+              "subModuleId": "c24600c6-653c-542d-9412-587adf2c784f",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "ACCOUNTABILITY_RESPONSIBILITY",
+              "name": "Accountability & Responsibility",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 3,
+              "questions": []
+            },
+            {
+              "subModuleId": "b447776f-35e9-55ce-8d4e-5d3fbd043ae3",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "CONTINUOUS_LEARNING_IMPROVEMENT",
+              "name": "Continuous Learning & Improvement",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 4,
+              "questions": []
+            },
+            {
+              "subModuleId": "dfca042a-9737-56c2-a50c-399503e713bc",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "COMMUNICATION_REPORTING",
+              "name": "Communication & Reporting",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 5,
+              "questions": []
+            },
+            {
+              "subModuleId": "e314dec0-a87e-5edb-9585-f3d89d1614c8",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "COLLABORATION_TEAM_BEHAVIOR",
+              "name": "Collaboration & Team Behavior",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 6,
+              "questions": []
+            },
+            {
+              "subModuleId": "c161c482-d1a8-5870-8bd5-9b3f4cff9de3",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "COMMITMENT_TO_QUALITY",
+              "name": "Commitment to Quality",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 7,
+              "questions": []
+            },
+            {
+              "subModuleId": "8464af75-0b91-5bb2-927e-5024693cf708",
+              "moduleId": "ee8a5206-61a7-5958-a106-45ae26dcf81d",
+              "code": "LEADERSHIP_MENTORSHIP",
+              "name": "Leadership & Mentorship",
+              "description": null,
+              "weight": 1,
+              "sortOrder": 8,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "moduleId": "41ae28c3-8926-5b06-a2e4-a4d8fc902a65",
+          "categoryId": "b0a895f7-ec32-5788-ba2d-eac7e55fb634",
+          "code": "OPERATIONAL_ESSENTIALS",
+          "name": "Operational Essentials",
+          "description": "Mandatory operational baseline questions used for intensity-based assessments.",
+          "weight": 1,
+          "sortOrder": 10,
+          "subModules": [
+            {
+              "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
+              "moduleId": "41ae28c3-8926-5b06-a2e4-a4d8fc902a65",
+              "code": "MANDATORY_OPERATIONAL_QUESTIONS",
+              "name": "Mandatory Operational Questions",
+              "description": "Operational questions explicitly required in the intensity template.",
+              "weight": 1,
+              "sortOrder": 1,
+              "questions": [
+                {
+                  "questionId": "6cf44670-693a-5a23-954b-dcf8fab7aa94",
+                  "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
+                  "text": "Do you measure your team's productivity and year-over-year productivity improvements?",
+                  "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Productivity should be measured and improved over time.",
+                  "expectedAnswer": 2,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 1
+                },
+                {
+                  "questionId": "4c45eb62-7255-51e9-b6c3-db09d4f7fe30",
+                  "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
+                  "text": "Do you have a competency development plan for each team member?",
+                  "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Each resource should have a clear development plan.",
+                  "expectedAnswer": 2,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 2
+                },
+                {
+                  "questionId": "625e346f-5956-5170-8b65-a50c8e39d20b",
+                  "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
+                  "text": "Is testing still performed primarily by human testers rather than AI agents?",
+                  "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. The work should not rely entirely on people where AI agents can assist appropriately.",
+                  "expectedAnswer": 0,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 3
+                },
+                {
+                  "questionId": "f043dfa7-86fb-5721-a7b4-ecfc55f2df46",
+                  "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
+                  "text": "Do you have an investment plan for continuous QA training and upskilling?",
+                  "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Continuous QA training and upskilling should be adequately funded.",
+                  "expectedAnswer": 2,
+                  "intensity": 0,
+                  "weight": 1,
+                  "sortOrder": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maturityBands": [
+    {
+      "maturityBandId": "1969dd64-4029-51bf-8373-abf0546c62a7",
+      "minScore": 0,
+      "maxScore": 10,
+      "level": "Testing",
+      "label": "Initiating",
+      "tmmiLevel": "Initial",
+      "sortOrder": 1
+    },
+    {
+      "maturityBandId": "c6d48321-afc4-5a22-b1d5-7dce57fc2809",
+      "minScore": 11,
+      "maxScore": 20,
+      "level": "Testing",
+      "label": "Diagnosing",
+      "tmmiLevel": "Managed",
+      "sortOrder": 2
+    },
+    {
+      "maturityBandId": "8b933215-fdd8-50f4-9622-bc4a695e056c",
+      "minScore": 21,
+      "maxScore": 30,
+      "level": "Testing",
+      "label": "Diagnosing",
+      "tmmiLevel": "Managed",
+      "sortOrder": 3
+    },
+    {
+      "maturityBandId": "24c7ca56-e060-57d9-872a-4378e8e47415",
+      "minScore": 31,
+      "maxScore": 40,
+      "level": "QA",
+      "label": "Establishing",
+      "tmmiLevel": "Defined",
+      "sortOrder": 4
+    },
+    {
+      "maturityBandId": "6abd171a-9308-539b-a4ff-ff470a76c53e",
+      "minScore": 41,
+      "maxScore": 50,
+      "level": "QA",
+      "label": "Establishing",
+      "tmmiLevel": "Defined",
+      "sortOrder": 5
+    },
+    {
+      "maturityBandId": "e05ca538-247f-57a2-8e1f-39bba77830be",
+      "minScore": 51,
+      "maxScore": 60,
+      "level": "QA",
+      "label": "Establishing",
+      "tmmiLevel": "Defined",
+      "sortOrder": 6
+    },
+    {
+      "maturityBandId": "6648cdd5-ee7e-5145-bf84-da508c678888",
+      "minScore": 61,
+      "maxScore": 70,
+      "level": "QE",
+      "label": "Acting",
+      "tmmiLevel": "Measured",
+      "sortOrder": 7
+    },
+    {
+      "maturityBandId": "b7f6add3-880a-5df5-a210-7e6ae10b0263",
+      "minScore": 71,
+      "maxScore": 80,
+      "level": "QE",
+      "label": "Acting",
+      "tmmiLevel": "Optimization",
+      "sortOrder": 8
+    },
+    {
+      "maturityBandId": "eb6fa95d-734e-592a-82c3-559361abe24d",
+      "minScore": 81,
+      "maxScore": 90,
+      "level": "IQ",
+      "label": "Learning",
+      "tmmiLevel": "Level-5",
+      "sortOrder": 9
+    },
+    {
+      "maturityBandId": "7db6553f-7125-5d8f-a6cf-b11bff2eb200",
+      "minScore": 91,
+      "maxScore": 100,
+      "level": "IQ",
+      "label": "Learning",
+      "tmmiLevel": "Level-5",
+      "sortOrder": 10
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using qMRI.Application.Assessments.Abstractions;
+using qMRI.Application.Authentication.Abstractions;
+using qMRI.Application.Authentication.DTOs;
+
+namespace qMRI.Api.Controllers;
+
+[ApiController]
+[Route("api/v1/auth")]
+public sealed class AuthenticationController(
+    IAuthenticationService authenticationService,
+    IAssessmentExecutionService assessmentService) : ControllerBase
+{
+    private const string RefreshCookieName = "qmri.refreshToken";
+
+    [AllowAnonymous]
+    [HttpPost("refresh")]
+    [ProducesResponseType(typeof(LoginResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    public async Task<IActionResult> Refresh(CancellationToken cancellationToken)
+    {
+        var result = await authenticationService.RefreshAsync(
+            Request.Cookies[RefreshCookieName],
+            cancellationToken);
+
+        return ToActionResult(result);
+    }
+
+    [AllowAnonymous]
+    [HttpPost("public-session")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<IActionResult> CreatePublicSession(CancellationToken cancellationToken)
+    {
+        var result = await authenticationService.CreatePublicSessionAsync(cancellationToken);
+        if (result.Response is null)
+        {
+            return ToActionResult(result);
+        }
+
+        var assessment = await assessmentService.CreatePublicAssessmentAsync(
+            result.Response.User.UserId,
+            cancellationToken);
+
+        SetRefreshCookie(result.Response.RefreshToken);
+        result.Response.RefreshToken.Token = string.Empty;
+
+        return Ok(new
+        {
+            result.Response.AccessToken,
+            result.Response.AccessTokenExpiresAtUtc,
+            result.Response.RefreshToken,
+            result.Response.User,
+            assessment = new { assessmentId = assessment.AssessmentId }
+        });
+    }
+
+    private IActionResult ToActionResult(LoginResultDto result)
+    {
+        if (result.Response is not null)
+        {
+            SetRefreshCookie(result.Response.RefreshToken);
+            result.Response.RefreshToken.Token = string.Empty;
+            return Ok(result.Response);
+        }
+
+        return result.FailureReason switch
+        {
+            AuthenticationFailureReason.ApprovalPending => StatusCode(StatusCodes.Status403Forbidden, new
+            {
+                code = "ApprovalPending",
+                message = result.Message
+            }),
+            AuthenticationFailureReason.AccessDisabled => StatusCode(StatusCodes.Status403Forbidden, new
+            {
+                code = "AccessDisabled",
+                message = result.Message
+            }),
+            _ => Unauthorized(new
+            {
+                code = "InvalidCredentials",
+                message = result.Message
+            })
+        };
+    }
+
+    private void SetRefreshCookie(RefreshTokenDto refreshToken)
+    {
+        Response.Cookies.Append(RefreshCookieName, refreshToken.Token, new CookieOptions
+        {
+            HttpOnly = true,
+            Secure = Request.IsHttps,
+            SameSite = SameSiteMode.Lax,
+            Path = "/api/v1/auth",
+            Expires = new DateTimeOffset(refreshToken.ExpiresAtUtc.ToUniversalTime())
+        });
+    }
+}
