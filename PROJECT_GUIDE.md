@@ -35,7 +35,41 @@ The frontend is located in [`frontend/`](frontend/).
 
 The Vite development server uses port `8085`. Requests beginning with `/api` are proxied to the backend target configured by `VITE_API_PROXY_TARGET`.
 
-## 3. Backend/API
+## 3. Where an assessment starts
+
+These are the main pages a client or tester needs to know for the public workflow. There is no separate sign-in step. The public link creates the assessment session automatically and opens the assessment pages.
+
+| User journey | Open this URL | Page file | What happens |
+| --- | --- | --- | --- |
+| Public assessment participant | `http://localhost:8085/` or `http://localhost:8085/assessment` | [`PublicAssessmentPage.tsx`](frontend/src/features/assessments/pages/PublicAssessmentPage.tsx) | Creates the private assessment session and sends the participant to the assessment list. |
+| Public participant starts or continues an assessment | `http://localhost:8085/portal/my-assessments` | [`MyAssessmentsPage.tsx`](frontend/src/features/assignments/pages/MyAssessmentsPage.tsx) | Shows available assessments. Select one, then click **Start assessment** or **Continue assessment**. This page is reached automatically from the public workflow. |
+| Completed assessment results | `http://localhost:8085/portal/reports` | [`UserReportsPage.tsx`](frontend/src/features/reports/pages/UserReportsPage.tsx) | Shows the user's available reports after an assessment is completed. |
+
+### Simple user flow
+
+```text
+Public link or /assessment
+        |
+        v
+Automatic public session
+        |
+        v
+My Assessments
+        |
+        v
+Select an assessment
+        |
+        v
+Start assessment / Continue assessment
+        |
+        v
+Answer questions and submit
+        |
+        v
+Reports
+```
+
+## 4. Backend/API
 
 The backend is located in [`backend/`](backend/).
 
@@ -54,7 +88,7 @@ The backend is located in [`backend/`](backend/).
 
 The HTTP API normally listens on port `6000`. Swagger is available in Development at `http://localhost:6000/swagger`.
 
-## 4. Database configuration and code
+## 5. Database configuration and code
 
 QAScan uses SQL Server with Entity Framework Core.
 
@@ -82,7 +116,7 @@ ConnectionStrings__DefaultConnection=<sql-server-connection-string>
 
 The API applies pending migrations and runs identity seed initialization during startup. Database startup behavior is implemented in [`backend/src/qMRI.Api/Program.cs`](backend/src/qMRI.Api/Program.cs).
 
-## 5. Other configuration locations
+## 6. Other configuration locations
 
 | Configuration | Location or variable |
 | --- | --- |
@@ -96,7 +130,7 @@ The API applies pending migrations and runs identity seed initialization during 
 
 Never place production passwords, JWT signing keys, SMTP passwords, or API keys in documentation or commit them to source control.
 
-## 6. Local development
+## 7. Local development
 
 ### Prerequisites
 
@@ -144,7 +178,7 @@ Stop processes started by the root development script with:
 npm run stop:all
 ```
 
-## 7. Build verification
+## 8. Build verification
 
 ```powershell
 npm --prefix frontend run build

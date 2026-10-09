@@ -12,7 +12,7 @@ import { brandTokens } from "app/theme/tokens/palette";
 
 export function PublicAssessmentPage() {
   const navigate = useNavigate();
-  const { login } = useAuthContext();
+  const { setPublicSession } = useAuthContext();
   const startedRef = useRef(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -22,13 +22,13 @@ export function PublicAssessmentPage() {
 
     void createPublicAssessmentSession()
       .then((session) => {
-        login(session);
+        setPublicSession(session);
         navigateToAssessment(session.assessment.assessmentId);
       })
       .catch(() => {
         setError("We could not start the assessment right now. Please try opening the link again.");
       });
-  }, [login, navigate]);
+  }, [setPublicSession, navigate]);
 
   function navigateToAssessment(assessmentId: string) {
     const navigationState = {

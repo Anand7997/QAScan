@@ -28,7 +28,7 @@ QAScan
 
 | Service | URL |
 | --- | --- |
-| Frontend UI | `http://44.216.167.20:8085` |
+| Frontend UI | `http://localhost:8085` |
 | Backend API | `http://44.216.167.20:6000` |
 | API health check | `http://44.216.167.20:6000/api/v1/health` |
 | Swagger UI | `http://44.216.167.20:6000/swagger` |
@@ -65,7 +65,7 @@ npm run dev
 Open the UI at:
 
 ```text
-http://44.216.167.20:8085
+http://localhost:8085
 ```
 
 Stop local dev processes:
@@ -147,8 +147,8 @@ npm run stop:all
 If the frontend cannot reach the API, confirm that:
 
 - the backend is listening on `http://44.216.167.20:6000`
-- the UI is running on `http://44.216.167.20:8085`
-- CORS includes `http://44.216.167.20:8085`
+- the UI is running on `http://localhost:8085`
+- CORS includes `http://localhost:8085`
 - the frontend proxy target points to `http://44.216.167.20:6000`
 
 

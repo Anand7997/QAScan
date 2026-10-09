@@ -12,7 +12,7 @@ import { clearFocusedAssessmentNavigation } from "shared/constants/assessmentNav
 type AuthContextValue = {
   isAuthenticated: boolean;
   user: AuthUser | null;
-  login: (session: AuthSession) => void;
+  setPublicSession: (session: AuthSession) => void;
 };
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
@@ -20,7 +20,7 @@ const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 export function AuthContextProvider({ children }: PropsWithChildren) {
   const [user, setUser] = useState<AuthUser | null>(() => authStorage.getUser());
 
-  const login = useCallback((session: AuthSession) => {
+  const setPublicSession = useCallback((session: AuthSession) => {
     clearFocusedAssessmentNavigation();
     authStorage.save(session);
     setUser(session.user);
@@ -30,9 +30,9 @@ export function AuthContextProvider({ children }: PropsWithChildren) {
     return {
       isAuthenticated: Boolean(user) && Boolean(authStorage.getToken()),
       user,
-      login,
+      setPublicSession,
     };
-  }, [user, login]);
+  }, [user, setPublicSession]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
