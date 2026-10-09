@@ -12,7 +12,6 @@ QAScan
 |-- frontend     React 18 + Vite + TypeScript application
 |-- tools        Local development and data helper scripts
 |-- docs         Project notes and implementation plans
-|-- plan.md      Product and architecture blueprint
 ```
 
 ## Tech Stack

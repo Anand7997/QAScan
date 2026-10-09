@@ -10,7 +10,6 @@ QAScan/
 ├── backend/                  ASP.NET Core API and database layer
 ├── tools/                    Local development and process scripts
 ├── docs/                     Design notes and implementation documentation
-├── plan/                     Product and architecture planning files
 ├── .env.example              Safe environment-variable template
 └── package.json              Root development commands
 ```
