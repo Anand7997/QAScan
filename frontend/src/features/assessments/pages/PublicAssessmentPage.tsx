@@ -54,7 +54,6 @@ export function PublicAssessmentPage() {
             <>
               <CircularProgress />
               <Typography variant="h2">Preparing your assessment...</Typography>
-              <Typography color="text.secondary">Your private assessment session is being created. No account or approval is required.</Typography>
             </>
           )}
         </Stack>

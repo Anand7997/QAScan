@@ -2,6 +2,8 @@
 
 QAScan is a full-stack assessment platform for managing quality maturity reviews. It provides an administrator experience for configuring assessments, users, question banks, reporting, and settings, plus a user portal for completing assigned assessments and reviewing results.
 
+For a client-facing map of the frontend, backend, database configuration, environment settings, and local run commands, see [PROJECT_GUIDE.md](PROJECT_GUIDE.md).
+
 ## What Is Inside
 
 ```text
