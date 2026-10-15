@@ -1099,7 +1099,7 @@
                 {
                   "questionId": "49d5b2e5-18e2-5305-96ed-6dbe80491877",
                   "subModuleId": "82e2b3b2-b1c4-53ef-af44-f57332a876a2",
-                  "text": "Does your regression execution cycle regularly exceed 40 hours, impacting overall release timelines?",
+                  "text": "Does your regression execution cycle regularly exceed 40 hours and affect overall release timelines?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Regression execution should remain within the 40-hour threshold and should not regularly constrain release timelines.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -2019,7 +2019,7 @@
                 {
                   "questionId": "03513075-959d-5ff9-a3e4-fb96794b6c04",
                   "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
-                  "text": "Do you still use Time & Materials (T&M) or fixed-price contracts for testing instead of outcome-based engagement models?",
+                  "text": "Do you still use time-and-materials (T&M) or fixed-price contracts for testing instead of outcome-based engagement models?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Mature operating models move away from pure effort-based testing contracts.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -2029,7 +2029,7 @@
                 {
                   "questionId": "7c283f3b-ed59-5b38-a0cc-457d6197ee39",
                   "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
-                  "text": "Do QA teams still work in silos, separate from product and delivery streams?",
+                  "text": "Do QA teams still work in silos, separately from product and delivery teams?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. QA should be integrated with product and delivery streams.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -2039,7 +2039,7 @@
                 {
                   "questionId": "3bb87d2e-d664-5691-b39a-8c314f722748",
                   "subModuleId": "106102a7-3c39-5e09-8a63-16b210cbc181",
-                  "text": "Do you lack a formal QA governance model across programs?",
+                  "text": "Do your programs lack a formal QA governance model?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. This follows the requested diagnostic scoring rule.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -3291,7 +3291,7 @@
                 {
                   "questionId": "ee84c07c-d044-599d-812b-874c5c8f960a",
                   "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
-                  "text": "Do you still identify defects late in the STLC, such as during Dev, SIT, UAT, or Pre-Prod, rather than earlier in the SDLC?",
+                  "text": "Do you still identify defects late in the STLC—for example, during Dev, SIT, UAT, or pre-production—instead of earlier in the SDLC?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Defects should be caught earlier in the SDLC.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -3301,7 +3301,7 @@
                 {
                   "questionId": "58c0b517-eeb2-587a-b4ba-2c6ebd5161c7",
                   "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
-                  "text": "Do regression cycles still require manual effort despite automation coverage?",
+                  "text": "Do your regression cycles still require manual effort despite existing automation coverage?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. Regression should not rely on manual effort when automation is claimed.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -3311,7 +3311,7 @@
                 {
                   "questionId": "b03be957-0fee-5a7b-84ba-3103a5510b85",
                   "subModuleId": "84652e55-1eab-561f-925b-d388acc71b65",
-                  "text": "Do you believe the QE Total Cost of Ownership is currently higher than it should be, and that there are significant opportunities to reduce it?",
+                  "text": "Do you believe your QE total cost of ownership is higher than it should be, with significant opportunities for reduction?",
                   "guidance": "Scoring: Yes=Zero, Partial=Partial, No=Good. QE Total Cost of Ownership should be controlled relative to quality requirements and delivery objectives.",
                   "expectedAnswer": 0,
                   "intensity": 0,
@@ -4191,7 +4191,7 @@
                 {
                   "questionId": "6cf44670-693a-5a23-954b-dcf8fab7aa94",
                   "subModuleId": "3d6067c9-3edf-58fa-9ad5-56acd7cf8a5e",
-                  "text": "Do you measure your team's productivity and year-over-year productivity improvements?",
+                  "text": "Do you measure your team's productivity and year-over-year improvement?",
                   "guidance": "Scoring: Yes=Good, Partial=Partial, No=Zero. Productivity should be measured and improved over time.",
                   "expectedAnswer": 2,
                   "intensity": 0,
